@@ -1,10 +1,11 @@
 "use client"
 import React from 'react'
+import HeroSection from './components/HeroSection'
 
 const page = () => {
   return (
     <>
-    <h1>Ahmed Abbasi</h1>
+    <HeroSection title={"LET\'S WATCH MOVIE TOGETHER"} imgUrl={"/home.svg"}/>
     </>
   )
 }
