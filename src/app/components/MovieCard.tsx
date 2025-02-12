@@ -24,7 +24,6 @@ interface MovieCardProps {
 }
 
 const MovieCard = ({ movie }: MovieCardProps) => {
-    console.log(movie)
     return (
         <div className={styles.card}>
             <div className={styles.card_image}>

@@ -44,6 +44,7 @@ const MoviePage =async () => {
 
   const res:Response = await fetch(url,options);
   const data:Movie[] = await res.json();
+  console.log(data)
 
   return (
     <>
